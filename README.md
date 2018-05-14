@@ -12,6 +12,6 @@
       
    Donde "esp" es numérico y se obtiene de la funcion teleg()  --    gracias a telegram-cli   --
 
-y numbers_to_strings(esp) llama a la funcion que corresponda al numero "esp"
+y numbers_to_strings(esp) toma el nuemro "esp" y busca en el diccionario switc{} el texto correspondiente, con ello llama a la funcion que corresponda al numero "esp"
 
-Finalmente se devuelve el dato
+Finalmente se devuelve el dato de la func() llamada
